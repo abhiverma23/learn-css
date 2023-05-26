@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu styles</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .nav-menu {
+            background-color: #5858ff;
+            margin: 0;
+            list-style: none;
+            overflow: auto;
+        }
+        .nav-menu li{
+            float: left;
+        }
+
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px 20px;
+        }
+        .nav-menu li a:hover {
+            color: #e2e2e2;
+            background-color: #4848d4;
+        }
+
+        .list-menu {
+            /* background-color: #e4e4e4; */
+            border: 1px #a9a9a9 solid;
+            /* border-color: #a9a9a9; */
+            border-radius: 15px;
+            width: 300px;
+            list-style: none;
+            padding: 20px;
+            margin: 10px;
+        }
+        .list-menu li {
+            padding: 15px;
+            border-bottom: 1px #a9a9a9 solid;
+        }
+        .list-menu li:last-child {
+            border: none;
+        }
+        .list-menu li:hover {
+            background-color: #e4e4e4;
+        }
+        .list-menu li a {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+        }
+        .list-menu li a:hover {
+            color: coral;
+        }
+        .list-menu li:active {
+            background-color: #afafaf;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="list-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+    
+</body>
+</html>
